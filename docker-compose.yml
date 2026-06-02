@@ -14,7 +14,7 @@ services:
 
     environment:
       # Required for running behind a reverse proxy (Easypanel uses Traefik)
-      - STREAMLIT_SERVER_PORT=8745
+      - STREAMLIT_SERVER_PORT=8501
       - STREAMLIT_SERVER_ADDRESS=0.0.0.0
       - STREAMLIT_SERVER_HEADLESS=true
       - STREAMLIT_SERVER_ENABLE_CORS=false
