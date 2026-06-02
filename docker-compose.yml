@@ -22,8 +22,8 @@ services:
       - STREAMLIT_SERVER_ENABLE_WEBSOCKET_COMPRESSION=false
 
       # *** CRITICAL: Set these to your actual public domain ***
-      - STREAMLIT_BROWSER_SERVER_ADDRESS=https://science-lipidcruncher.cu4huf.easypanel.host
-      - STREAMLIT_BROWSER_SERVER_PORT=443
+      - STREAMLIT_BROWSER_SERVER_ADDRESS=science-lipidcruncher.cu4huf.easypanel.host
+ #     - STREAMLIT_BROWSER_SERVER_PORT=443
 
     volumes:
       - lipidcruncher_data:/app/data
